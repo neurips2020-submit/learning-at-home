@@ -1,4 +1,4 @@
-# Running the expertiments
+# Running the experiments
 
 This folder contains scripts and notebooks necessary for reproducing the results reported in the paper. 
 To run them, please refer to the corresponding subsections of this guide.
