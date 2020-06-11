@@ -62,7 +62,7 @@ Below we include the full grid of parameters used to conduct convergence experim
 | `10% failure 256 experts` | [click](./experiments/convergence/convergence_mnist_fail01_64workers_1000ms_seed1338_dmoe1024x4_cpu.ipynb)|`64`|`64`|`4`|`1000`|
 | `10% failure 4096 experts` | [click](./experiments/convergence/convergence_mnist_fail01_64workers_1000ms_seed1338_dmoe1024x4_cpu.ipynb)|`1024`|`64`|`8`|`1000`|
 
-You can reproduce the curves in Figure 4 by openning the associated notebook, setting parameters as described in the table and iterating through random seeds 1337-1341 (including both borders).
+You can reproduce the curves in Figure 4 by opening the associated notebook, setting parameters as described in the table and iterating through random seeds 1337-1341 (including both borders).
 
 Please note that these experiments can take up a lot of GPU memory due to storing "stale" gradients. With 16 trainers, the code should fit well into consumer GPU. For 4096 experts, we bypassed the memory limit by running on CPU.
 
