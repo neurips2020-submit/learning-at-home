@@ -49,7 +49,7 @@ You can find notebooks for [large FFN](./experiments/convergence/convergence_mni
 Below we include the full grid of parameters used to conduct convergence experiments:
 
 | `setup` | `notebook` |`experts_per_layer` | `num_trainers` | `batch_size` | `delay_ms` |
-|---------|------------|--------------------|---------------|------------|
+|---|---|---|---|---|---|
 | `100ms large ffn` | [click](./experiments/convergence/convergence_mnist_64workers_1000ms_seed1337_largeffn.ipynb)|`-`|`64`| `4` |`100`|
 | `100ms 64 experts` | [click](./experiments/convergence/convergence_mnist_64workers_1000ms_seed1337_dmoe64x4.ipynb)|`16`|`16`| `4`|`100`|
 | `100ms 256 experts` | [click](./experiments/convergence/convergence_mnist_64workers_1000ms_seed1337_dmoe64x4.ipynb)|`64`|`64`|`4`|`100`|
